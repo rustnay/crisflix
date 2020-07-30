@@ -38,7 +38,7 @@ img {
   margin: 50px auto;
   display: block;
 }
-
+/*
 label {
   color: var(--white);
   box-sizing: border-box;
@@ -91,7 +91,7 @@ input {
   border-radius: 4px;
   transition: border-color 0.3s ease 0s;
 }
-
+*/
 button {
   background: transparent;
   border: 1px solid white;

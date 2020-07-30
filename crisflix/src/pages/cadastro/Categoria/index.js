@@ -23,8 +23,10 @@ function CadastroCategoria() {
     setValue(infosDoEvento.target.getAttribute('name'), infosDoEvento.target.value);
   }
 
-  useLayoutEffect(() => {
-    const URL = 'http://localhost:8484/categorias';
+  useEffect(() => {
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8484/categorias'
+      : 'api do heroku';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
