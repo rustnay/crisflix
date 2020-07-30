@@ -1,0 +1,28 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Front End",
+            "descricao": "Uma categoria bacanuda",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Back End",
+            "descricao": "Uma categoria bacanuda",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 3,
+            "nome": "Fullstack",
+            "descricao": "Uma categoria bacanuda",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 4,
+            "nome": "Devops",
+            "descricao": "Uma categoria bacanuda",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
